@@ -217,7 +217,7 @@ body {
 }
 
 .nav-list li ul li a:hover {
-  background-color: #555;
+ text-decoration: underline;
 }
 
 
