@@ -1,0 +1,77 @@
+.container {
+    max-width: 1430px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 600px;
+    padding: 30px 40px;
+  }
+  h2 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #f3c7a0;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  .file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .file-upload p {
+    font-size: 13px;
+    color: #555;
+    width: 70%;
+  }
+  .file-upload button {
+    background: linear-gradient(to bottom, #f0b374, #c57b2a);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .submit-btn button {
+    background: linear-gradient(to bottom, #f0b374, #c57b2a);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .submit-btn button:hover {
+    opacity: 0.9;
+  }
