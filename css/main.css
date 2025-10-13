@@ -246,7 +246,7 @@ body {
 
 .Noviny h1 a {
     
- font-size: 30px;
+ font-size: 25px;
  font-weight: 700;
  color: #16416d;
 }
@@ -254,7 +254,7 @@ body {
 .card {
     padding-top: 20px;
     width: 900px;
-    height: 160px;
+    height: 140px;
    border-bottom: 1px solid rgb(229 231 235);
 }
 
@@ -305,9 +305,7 @@ width: 750px;
    font-weight: 500;
 }
 
-.Noviny h2 {
-    padding-top: 20px;
-}
+
 
 .Noviny h2 a {
     color: blue;
@@ -318,14 +316,14 @@ width: 750px;
 
 .advertisement {
     position: relative;
-    top: -1035px;
+    top: -880px;
     left: 960px ;
     width: 460px;
 }
 
 .advertisement h1 a {
  
- font-size: 30px;
+ font-size: 25px;
  font-weight: 700;
  color: #16416d;
  width: 460px;
@@ -341,7 +339,7 @@ width: 750px;
 .card-name h1 a {
       color: black;
 
-   font-size: 25px;
+   font-size: 20px;
    font-weight: 500;
 }
 
