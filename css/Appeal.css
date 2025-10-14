@@ -105,7 +105,7 @@
   text-align: center;
 }
 
-/* ✅ Блок благодарности */
+
 .thank-you {
   display: none;
   flex-direction: column;
@@ -116,6 +116,7 @@
 }
 
 .thank-you .big-text {
+  padding-bottom: 10px;
   font-size: 22px;
   font-weight: 700;
   color: #356799;
