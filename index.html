@@ -77,15 +77,15 @@
 
       <form class="appeal-form" id="appealForm">
         <input type="text" placeholder="Прізвище ім'я та по-батькові" required>
-        <input type="email" placeholder="Електронна адреса" required>
+        <input type="email" placeholder="Електронна адреса" >
         <input type="tel" placeholder="Номер телефону">
-        <input type="text" placeholder="Контактні дані (індекс, населений пункт, адреса)">
+        <input type="text" placeholder="Контактні дані (індекс, населений пункт, адреса)" required>
         <h3>Якщо у Вас є документи чи інші файли, які Ви хочете додати до звернення, завантажте їх (до 9 МБ формата jpg, png, gif, txt, doc)</h3>
         <label class="file-upload">
           <input type="file" accept=".jpg,.png,.txt,.pdf,.doc,.docx">
           <span>Додати файл</span>
         </label>
-        <textarea placeholder="Текст звернення"></textarea>
+        <textarea placeholder="Текст звернення" required></textarea>
         <button type="submit">Надіслати</button>
       </form>
     </div>
@@ -384,6 +384,57 @@
       </div>
    </content>
 
+   <content01>
+
+    <div class="container">
+    <h1>Кількість звернень що надійшла до<br>Запорізького обласного контактного центру</h1>
+
+    <div class="stats">
+      <div>ЗА ДЕНЬ : <span>100</span></div>
+      <div>ЗА МІСЯЦЬ : <span>1000</span></div>
+      <div>ЗА РІК : <span>10000</span></div>
+    </div>
+
+    <div class="chart">
+      <div class="chart-title">ТОП 5 ПИТАНЬ</div>
+      <div class="bar-chart">
+        <div class="bar">
+          <div class="bar-label">ЖИТЛОВЕ ЗАБЕЗПЕЧЕННЯ</div>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="60%">600</div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-label">ОХОРОНА ЗДОРОВ'Я</div>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="50%">500</div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-label">ЖИТЛОВО-КОМУНАЛЬНЕ ГОСПОДАРСТВО</div>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="110%">1100</div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-label">СОЦІАЛЬНИЙ ЗАХИСТ</div>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="70%">700</div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-label">ВОЄННИЙ СТАН</div>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="90%">900</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   </content01>
+
    <script src="./js/appeal.js"></script>
+   <script src="./js/main.js"></script>
 </body>
 </html>
