@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/Appeal.css">
     <script src="https://kit.fontawesome.com/58012ed0dc.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -54,8 +55,53 @@
                 <h2>Запорізької обласної ради</h2>
             </div>
             <div class="button-sn">
-                <a href="/Appeal.html">Залишити звернення</a>
+                <a href="">Залишити звернення</a>
             </div>
+
+            
+
+<div class="modal" id="appealModal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+
+ 
+    <div class="appeal-body" id="appealBody">
+      <h2>Залишити звернення</h2>
+      <p>
+        У зверненні має бути зазначено прізвище, ім’я, по батькові, місце проживання громадянина, викладено суть порушеного питання.
+        В електронному зверненні також має бути зазначено електронну поштову адресу, на яку заявнику може бути надіслано відповідь,
+        або відомості про інші засоби зв’язку з ним.
+        <br><br>
+        Звернення, оформлене без дотримання зазначених вимог, повертається заявнику.
+      </p>
+
+      <form class="appeal-form" id="appealForm">
+        <input type="text" placeholder="Прізвище ім'я та по-батькові" required>
+        <input type="email" placeholder="Електронна адреса" required>
+        <input type="tel" placeholder="Номер телефону">
+        <input type="text" placeholder="Контактні дані (індекс, населений пункт, адреса)">
+        <h3>Якщо у Вас є документи чи інші файли, які Ви хочете додати до звернення, завантажте їх (до 9 МБ формата jpg, png, gif, txt, doc)</h3>
+        <label class="file-upload">
+          <input type="file" accept=".jpg,.png,.txt,.pdf,.doc,.docx">
+          <span>Додати файл</span>
+        </label>
+        <textarea placeholder="Текст звернення"></textarea>
+        <button type="submit">Надіслати</button>
+      </form>
+    </div>
+
+   
+    <div class="thank-you" id="thankYouMessage">
+      <p class="big-text">ДЯКУЄМО ЩО ЗВЕРНУЛИСЬ ДО ЦЕНТРУ</p>
+      <p>
+        Ваше звернення буде розглянуто згідно чинного законодавства,
+        у термін не більше одного місяця від дня його надходження.
+      </p>
+    </div>
+  </div>
+</div>
+
+
             <div class="nav">
                 <ul class="nav-list" >
                     <li><a href="">Головна </a></li>
@@ -87,7 +133,7 @@
                         </ul>
                     
                     </li>
-                    <li><a href="">Новини</a></li>
+                    <li><a href="/Noviny.html">Новини</a></li>
                     <li><a href="">Надзвичайний стан</a></li>
                     
                 </ul>
@@ -337,5 +383,7 @@
       </div>
       </div>
    </content>
+
+   <script src="./js/appeal.js"></script>
 </body>
 </html>
