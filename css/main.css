@@ -8,6 +8,7 @@ body {
   font-family: "Times New Roman", Times, "Times Roman", serif;
 }
 
+/*header*/
 
 .fon01 {
     background-image: -webkit-radial-gradient(50% 50%,closest-side,#147 0%,#203956 100%);
@@ -237,7 +238,7 @@ body {
   visibility: visible;
 }
 
-
+/*content*/
 
 .Noviny {
     width: 900px;
@@ -361,3 +362,191 @@ width: 750px;
    font-size: 20px;
    font-weight: 500;
 }
+
+.breadcrumbs__item a {
+  color: blue;
+}
+
+.breadcrumbs__item {
+  position: relative;
+  padding-right: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.breadcrumbs__item:after {
+  content: '/';
+  position: absolute;
+  color: #676767;
+  top: 10px ;
+  right: 3px;
+}
+
+/*content01*/
+
+.fon02 {
+ background-image: -webkit-radial-gradient(50% 50%,closest-side,#147 0%,#203956 100%);
+ height: 640px;
+}
+
+.stats-text {
+  padding-top: 15px;
+  text-align: center;
+  color: #ffffff ;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.stats {
+    margin-top: 170px;
+    
+    text-align: left;
+    font-size: 32px;
+    letter-spacing: 10px;
+    color: #ffffff;
+  }
+
+  .stats div {
+    margin-bottom: 40px;
+    
+  }
+
+  .left001 {
+    margin-left: 60px;
+  }
+  .left002 {
+    margin-left: 0px;
+  }
+  .left003 {
+    margin-left: 103px;
+  }
+
+  .stats span {
+    letter-spacing: normal;
+    margin-left: 30px;
+  }
+
+  .chart-title {
+    font-size: 28px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .bar-chart {
+    width: 83%;
+    text-align: left;
+  }
+
+  .bar {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .bar::before {
+    content: "";
+    position: absolute;
+    width: 52px;
+    height: 1px;
+    background-color: #fff;
+    transform: skewY(330deg);
+    top: 65px;
+    left: -10px;
+  }
+
+  .bar-label {
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    left: -365px;
+    top: 30px;
+    height: 15px;
+  }
+
+  .chart-title::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 378px;
+    background-color: #fff;
+    top: 45px;
+    left: -10px;
+  }
+
+ 
+
+  .bar-label::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    background-color: #fff;
+    left: 407px;
+    top: 20px;
+  }
+
+  
+
+  .bar-fill {
+  position: relative;
+  height: 40px;
+  background: linear-gradient(90deg, #6fb7f0 0%, #4b9ede 100%);
+  
+  
+}
+
+/* Боковая грань */
+.bar-fill::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: -3.9px;
+  bottom: 3.9px;
+  width: 12px;
+  background: linear-gradient(180deg, #3a8fd3, #2c6ba7);
+  transform: skewY(330deg);
+}
+
+/* Верхняя грань */
+.bar-fill::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: -2px;
+  top: -8px;
+  height: 8px;
+  background: linear-gradient(90deg, #588ec0, #478ac0);
+  transform: skewX(129deg);
+  transform-origin: left bottom;
+}
+
+
+  .bar-fill {
+    height: 30px;
+    background: linear-gradient(90deg, #6fb7f0 0%, #4b9ede 100%);;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    
+    width: 0;
+    color: #000;
+    font-weight: bold;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 10px;
+    transition: width 2.2s ease-in-out;
+  }
+
+  .chart {
+    position: relative;
+    left: 950px;
+    top: -340px;
+    width: 510px;
+  }
+
+  /*content02*/
