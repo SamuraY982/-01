@@ -469,7 +469,7 @@ width: 750px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    left: -323px;
+    left: -300px;
     top: 30px;
     height: 15px;
   }
@@ -489,10 +489,10 @@ width: 750px;
   .bar-label::before {
     content: "";
     position: absolute;
-    width: 310px;
+    width: 275px;
     height: 1px;
     background-color: #fff;
-    left: 365px;
+    left: 342px;
     top: 20px;
   }
 
@@ -548,9 +548,9 @@ width: 750px;
 
   .chart {
     position: relative;
-    left: 1040px ;
+    left: 1080px ;
     top: -320px;
-    width: 400px;
+    width: 350px;
   }
 
   /*content02*/
