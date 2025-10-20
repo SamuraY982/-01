@@ -407,6 +407,7 @@ width: 750px;
     font-size: 32px;
     letter-spacing: 10px;
     color: #ffffff;
+    padding-left: 100px;
   }
 
   .stats div {
@@ -468,7 +469,7 @@ width: 750px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    left: -365px;
+    left: -323px;
     top: 30px;
     height: 15px;
   }
@@ -491,7 +492,7 @@ width: 750px;
     width: 400px;
     height: 1px;
     background-color: #fff;
-    left: 407px;
+    left: 365px;
     top: 20px;
   }
 
@@ -549,7 +550,7 @@ width: 750px;
     position: relative;
     left: 950px;
     top: -320px;
-    width: 510px;
+    width: 400px;
   }
 
   /*content02*/
