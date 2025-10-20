@@ -407,7 +407,7 @@ width: 750px;
     font-size: 32px;
     letter-spacing: 10px;
     color: #ffffff;
-    padding-left: 100px;
+    padding-left: 150px;
   }
 
   .stats div {
@@ -571,12 +571,12 @@ width: 750px;
   .appeal-card01 {
     border: 2px solid rgba(7, 3, 3, 0.299) ;
     border-radius: 50px;
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
     text-align: center;
     position: relative;
     top: 50px;
-    left: 240px;
+    left: 140px;
   }
 
   .appeal-card01 h1 {
@@ -612,11 +612,11 @@ width: 750px;
   .appeal-card02 {
     border: 2px solid rgba(7, 3, 3, 0.299) ;
     border-radius: 50px;
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
     text-align: center;
     position: relative;
-    top: -350px;
+    top: -430px;
     left: 780px;
   }
 
@@ -650,7 +650,7 @@ width: 750px;
     border-radius: 5px;
     padding: 10px 10px;
     position: relative;
-    left: 50px;
+    left: 100px;
     top: 20px;
 }
 
