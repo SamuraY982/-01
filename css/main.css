@@ -489,7 +489,7 @@ width: 750px;
   .bar-label::before {
     content: "";
     position: absolute;
-    width: 400px;
+    width: 310px;
     height: 1px;
     background-color: #fff;
     left: 365px;
@@ -548,7 +548,7 @@ width: 750px;
 
   .chart {
     position: relative;
-    left: 950px;
+    left: 1040px ;
     top: -320px;
     width: 400px;
   }
