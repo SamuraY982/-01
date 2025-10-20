@@ -320,7 +320,7 @@ width: 750px;
     top: -747px;
     left: 960px ;
     width: 460px;
-    height: 100px;
+    height: 20px;
 }
 
 .advertisement h1 a {
@@ -551,3 +551,204 @@ width: 750px;
   }
 
   /*content02*/
+
+  .appeal-card {
+    height: 550px;
+  }
+  
+  .appeal-card h1 {
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #16416d;
+  }
+
+
+  .appeal-card01 {
+    border: 2px solid rgba(7, 3, 3, 0.299) ;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 240px;
+  }
+
+  .appeal-card01 h1 {
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: 100px;
+    color: blue;
+  }
+
+  .appeal-card01 h1 span {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .appeal-card01 h2 {
+    padding-top: 70px;
+
+  }
+
+  .appeal-card01 h2 a {
+
+     font-size: 50px;
+    font-weight: 500;
+    color: #203956;
+  }
+
+  .appeal-card01 p {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .appeal-card02 {
+    border: 2px solid rgba(7, 3, 3, 0.299) ;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    left: 780px;
+  }
+
+  .appeal-card02 h1 {
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: 100px;
+    color: blue;
+  }
+
+  .appeal-card02 h2 {
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  
+
+  .appeal-card02 p {
+    padding-top: 65px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+
+  .button-mn  {
+    background: #16416d;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 10px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.button-mn a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.masage-card a {
+ color: #000;
+}
+
+.masage-card a i {
+ color: #000; 
+}
+
+
+
+.information h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #16416d;
+}
+
+.information01 {
+  padding-top: 50px;
+  padding-left: 50px;
+   text-decoration: underline;
+}
+
+.information02 {
+ position: relative;
+ left: 907px;
+ top: -87px;
+ width: 461px ;
+ text-decoration: underline;
+}
+
+.information01 a {
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+ 
+}
+
+.information02 a {
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.information01 a:hover {
+ color: blue;
+}
+
+.information02 a:hover {
+ color: blue;
+}
+
+
+/*footer*/
+
+.fon03 {
+  background-image: -webkit-radial-gradient(50% 50%,closest-side,#147 0%,#203956 100%);
+}
+
+.footer-list {
+  text-decoration: underline;
+  padding-top: 50px;
+  color: aliceblue;
+  padding-left:100px;
+}
+
+.footer-list a {
+color: aliceblue;
+font-size: 20px;
+font-weight: 500;
+}
+
+
+.footer-maps h1 {
+ color: aliceblue;
+ font-size: 20px ;
+ font-weight: 500;
+ text-align: right;
+ position: relative;
+ top: -100px;
+ left: 980px;
+ width: 365px;
+}
+
+.footer-masage {
+  position: relative;
+  left: 620px;
+  top: -50px;
+  width: 300px;
+}
+
+.footer-masage a i {
+ color: aliceblue;
+}
