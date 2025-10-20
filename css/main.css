@@ -562,7 +562,7 @@ width: 750px;
   .appeal-card h1 {
     padding-top: 15px;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     color: #16416d;
   }
@@ -576,13 +576,13 @@ width: 750px;
     text-align: center;
     position: relative;
     top: 50px;
-    left: 140px;
+    left: 160px;
   }
 
   .appeal-card01 h1 {
     padding-top: 60px;
     font-size: 25px;
-    font-weight: 100px;
+    font-weight: 500;
     color: blue;
   }
 
@@ -617,13 +617,13 @@ width: 750px;
     text-align: center;
     position: relative;
     top: -430px;
-    left: 780px;
+    left: 760px;
   }
 
   .appeal-card02 h1 {
     padding-top: 60px;
     font-size: 25px;
-    font-weight: 100px;
+    font-weight: 500;
     color: blue;
   }
 
