@@ -143,6 +143,7 @@ body {
     padding: 10px 10px;
     position: relative;
     left: 600px;
+    cursor: pointer;
 }
 
 .button-sn a {
@@ -302,7 +303,7 @@ width: 750px;
 
 .card h2 a {
      color: blue;
-   font-size: 20px;
+   font-size: 15px;
    font-weight: 500;
 }
 
@@ -310,7 +311,7 @@ width: 750px;
 
 .Noviny h2 a {
     color: blue;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -334,7 +335,7 @@ width: 750px;
 .card01 {
     padding-top: 15px;
  width: 460px;
- height: 60x;
+ height: 60px;
  border-bottom: 1px solid rgb(229 231 235);
 }
 
@@ -348,19 +349,19 @@ width: 750px;
 .card01 p {
     color: blue;
     position: relative;
-    top: 0px;
+    top: 3px;
 }
 
 .card01 h2 {
     position: relative;
-    top: 40px;
+    top: -16px;
     left: 358px;
     width: 102px;
 }
 
 .card01 h2 a {
      color: blue;
-   font-size: 20px;
+   font-size: 16px;
    font-weight: 500;
 }
 
