@@ -852,6 +852,7 @@ position: relative;
 .telegram_img{
   width: 40px;
   position: relative;
+
   top: -11px;
 }
 
@@ -903,4 +904,17 @@ position: relative;
 
 .side-nav__item__page:hover {
  text-decoration-color: blue;
+}
+
+
+.search_box-tach {
+  display: none;
+}
+
+.textmasage-tach {
+  display: none;
+}
+
+.button-tack {
+  display: none;
 }
