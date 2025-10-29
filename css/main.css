@@ -178,6 +178,7 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
+ @media (min-width: 1200px) {
 
 .nav {
     padding-top: 50px;
@@ -201,11 +202,16 @@ body {
   
 }
 
+.nav-arrow {
+  display: none;
+}
+
 .nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+ 
 }
 
 .nav-list > li {
@@ -217,10 +223,12 @@ body {
   color: white;
   text-decoration: none;
   padding: 15px 20px;
+ 
 }
 
 .nav-list > li > a:hover {
    text-decoration: underline;
+  
 }
 
 
@@ -235,6 +243,7 @@ body {
   margin: 0;
   min-width: 220px;
   z-index: 10;
+  
 }
 
 
@@ -243,28 +252,35 @@ body {
   padding: 10px 15px;
   color: white;
   text-decoration: none;
+  
 }
 
 .nav-list li ul li a:hover {
  text-decoration: underline;
+ 
 }
 
 
 .nav-list li:hover > ul {
   display: block;
+  
 }
 
 
 .nav-list li ul {
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+  
 }
 
 .nav-list li:hover ul {
   opacity: 1;
   visibility: visible;
+  
 }
+
+ }
+
 
 /*content*/
 
