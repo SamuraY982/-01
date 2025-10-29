@@ -204,7 +204,7 @@
   top: -12px;
 }
 
-.nav__sub-list {
+.nav__sub-list li {
    padding-left: 37px;
 }
 
