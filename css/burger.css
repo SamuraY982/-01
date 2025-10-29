@@ -58,7 +58,7 @@
     z-index: 2;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 100%;
     height: 100%;
     transform: translate(-100%, 0);
     background-image: -webkit-radial-gradient(50% 50%, closest-side, rgb(17, 50, 83) 0%, #152e49 100%);
@@ -190,3 +190,4 @@
 }
 
 }
+
