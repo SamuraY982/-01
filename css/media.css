@@ -1,0 +1,126 @@
+@media (max-width: 500px) {
+
+    .header-contacts {
+        text-align: center;
+    }
+
+    .phone {
+        font-size: 25px;
+    }
+
+    .header-contacts h1 {
+        font-size: 14px;
+    }
+
+    .mail {
+        font-size: 14px;
+    }
+
+    .logo h1 {
+        font-size: 30px;
+    }
+
+    .logo h3 {
+        font-size: 17px;
+    }
+
+    .logo h2 {
+        font-size: 17px;
+    }
+
+    .logo {
+        padding-top: 30px;
+    }
+
+    .nav-icon {
+        left: 320px ;
+        top: -246px;
+    }
+
+    .card-foto {
+        display: none;
+    }
+
+    .card-text {
+        top: 0;
+        left: 0;
+    }
+
+    .card-text h1 {
+        width: 350px;
+    }
+
+    .card-text p {
+        top: 55px;
+        width: 200px;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card h2 {
+        top: 35px;
+        left: 260px;
+        width: 100px;
+    }
+
+    .advertisement {
+        top: 25px;
+        left: 0;
+        width: 350px;
+        height: 445px;
+
+    }
+
+    .card01 {
+        width: 350px;
+    }
+
+    .card01 h2 {
+        left: 260px;
+    }
+
+    .stats-text {
+        font-size: 21px;
+    }
+
+    .stats {
+        margin-top: 60px;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .stats span {
+        font-size: 30px;
+    }
+
+    .left001 {
+        margin-left: 44px;
+    }
+
+    .left003 {
+        margin-left: 77px;
+    }
+
+    .fon02 {
+        height:900px;
+    }
+
+    .chart {
+        left: 170px;
+        top: 40px;
+        width: 170px;
+    }
+
+    .chart-title {
+        font-size: 23px;
+    }
+
+    .bar-label {
+        font-size: 10px;
+        left: -170px;
+    }
+
+
+}
