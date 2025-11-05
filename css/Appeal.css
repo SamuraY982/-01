@@ -13,7 +13,7 @@
 }
 
 .modal-content {
-  background: #b4b4b4;
+  background: #fff;
   border-radius: 16px;
   padding: 30px 40px;
   max-width: 800px;
@@ -124,4 +124,8 @@
   font-size: 22px;
   font-weight: 700;
   color: #16416d;
+}
+
+.appeal-body h4 {
+  font-size: 15px;
 }
