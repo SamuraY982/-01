@@ -141,9 +141,7 @@
     text-decoration: none;
  }
 
- .search-box {
-   display: none;
- }
+ 
 
  .search_box-tach {
   display: flex;
@@ -233,4 +231,17 @@
     font-weight: 500;
 }
 
+
+.search-box.active input {
+  width: 180px;
+  opacity: 1;
 }
+
+.search-box.active {
+  width: 230px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+}
+
+
