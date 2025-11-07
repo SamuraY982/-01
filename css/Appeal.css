@@ -10,6 +10,8 @@
   background-color: rgba(0, 0, 0, 0.4);
   justify-content: center;
   align-items: center;
+  overflow-y: auto; /* ✅ скролл для длинной формы */
+  padding: 20px; /* чтобы контент не прилипал к краям */
 }
 
 .modal-content {
@@ -21,6 +23,9 @@
   position: relative;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   animation: fadeIn 0.3s ease;
+  margin: auto;
+  max-height: 90vh; /* ✅ ограничиваем высоту модального окна */
+  overflow-y: auto; /* ✅ прокрутка внутри окна */
 }
 
 .close-modal {
@@ -37,7 +42,6 @@
   flex-direction: column;
   gap: 12px;
   margin-top: 10px;
-  
 }
 
 .appeal-form input,
@@ -49,8 +53,6 @@
   width: 50%;
   background-color: #fff;
 }
-
-
 
 .appeal-form textarea {
   min-height: 100px;
@@ -71,6 +73,7 @@
   position: relative;
   left: 250px;
 }
+
 .appeal-form button:hover {
   background-color: #a85c1e;
 }
@@ -109,7 +112,6 @@
   text-align: center;
 }
 
-
 .thank-you {
   display: none;
   flex-direction: column;
@@ -128,4 +130,31 @@
 
 .appeal-body h4 {
   font-size: 15px;
+}
+
+/* 📱 Адаптация для мобильных устройств */
+@media (max-width: 600px) {
+  .appeal-form input,
+  .appeal-form textarea {
+    width: 100%;
+  }
+
+  .appeal-form button {
+    width: 100%;
+    left: 0;
+    position: static;
+  }
+
+ 
+
+  .appeal-form h3 {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .modal-content {
+    padding: 20px;
+    max-height: 95vh; /* больше места на экране */
+  }
 }
