@@ -1,8 +1,6 @@
 @media (max-width: 1200px) {
  
-.button-sn {
-   display: none;
-}
+
    
  body._lock {
   overflow: hidden;
@@ -84,7 +82,7 @@
  }
 
  .nav-list {
-    padding: 40px 30px 0px 0;
+    padding: 60px 30px 0px 0;
  }
 
  .nav-list a {
@@ -244,4 +242,7 @@
 
 }
 
+.search-box{
+   display: none;
+}
 
