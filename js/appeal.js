@@ -1,6 +1,8 @@
  document.addEventListener("DOMContentLoaded", () => {
       const modal = document.getElementById("appealModal");
       const openBtn = document.querySelector(".button-sn");
+      const openBtn2 = document.querySelector(".button-mn");
+      const openBtntack = document.querySelector(".button-tack");
       const closeBtn = document.querySelector(".close-modal");
       const form = document.getElementById("appealForm");
       const thankYou = document.getElementById("thankYouMessage");
@@ -8,6 +10,18 @@
 
       // открыть модалку
       openBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        modal.style.display = "flex";
+      });
+
+       // открыть модалку
+      openBtntack.addEventListener("click", (e) => {
+        e.preventDefault();
+        modal.style.display = "flex";
+      });
+
+        // открыть модалку
+      openBtn2.addEventListener("click", (e) => {
         e.preventDefault();
         modal.style.display = "flex";
       });
