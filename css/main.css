@@ -75,7 +75,6 @@ body {
 }
 
 .search-box {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start; 
@@ -103,7 +102,7 @@ body {
   border: none;
   outline: none;
   font-size: 16px;
-  padding: 0 5px;
+  padding: 0 0px;
   width: 0;
   opacity: 0;
   transition: width 0.4s ease, opacity 0.3s ease;
