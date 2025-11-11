@@ -334,14 +334,14 @@ height: 45px;
    position: relative;
    top: 41px ;
    
-   width: 620px;
+   width: 100px;
 }
 
 .card h2 {
     position: relative;
    top:-66px ;
    left: 800px;
-   width: 620px;
+   width: 100px;
 }
 
 .card h2 a {
@@ -787,7 +787,7 @@ font-weight: 500;
 position: relative;
  top: -100px;
  left: 1122px;
- width: 330px;
+ width: 220px;
  height: 100px;
 }
 
