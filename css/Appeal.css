@@ -1,0 +1,160 @@
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px); 
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* ✅ скролл для длинной формы */
+  padding: 20px; /* чтобы контент не прилипал к краям */
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 40px;
+  max-width: 800px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  animation: fadeIn 0.3s ease;
+  margin: auto;
+  max-height: 90vh; /* ✅ ограничиваем высоту модального окна */
+  overflow-y: auto; /* ✅ прокрутка внутри окна */
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 26px;
+  color: #888;
+  cursor: pointer;
+}
+
+.appeal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.appeal-form input,
+.appeal-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 50%;
+  background-color: #fff;
+}
+
+.appeal-form textarea {
+  min-height: 100px;
+  resize: vertical;
+  width: 100%;
+}
+
+.appeal-form button {
+  background-color: #356799;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 200px;
+  position: relative;
+  left: 250px;
+}
+
+.appeal-form button:hover {
+  background-color: #a85c1e;
+}
+
+.appeal-body h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.file-upload {
+  display: inline-block;
+  background-color: #356799;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+  position: relative;
+  left: 500px;
+}
+
+.file-upload span {
+  color: #fff;
+}
+
+.file-upload input {
+  display: none;
+}
+
+.appeal-form h3 {
+  position: absolute;
+  left: 450px;
+  top: 200px;
+  width: 280px;
+  text-align: center;
+}
+
+.thank-you {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.thank-you .big-text {
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #16416d;
+}
+
+.appeal-body h4 {
+  font-size: 15px;
+}
+
+/* 📱 Адаптация для мобильных устройств */
+@media (max-width: 600px) {
+  .appeal-form input,
+  .appeal-form textarea {
+    width: 100%;
+  }
+
+  .appeal-form button {
+    width: 100%;
+    left: 0;
+    position: static;
+  }
+
+ 
+
+  .appeal-form h3 {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .modal-content {
+    padding: 20px;
+    max-height: 95vh; /* больше места на экране */
+  }
+}

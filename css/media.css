@@ -1,0 +1,1999 @@
+/* ===========================
+   MOBILE FIRST RESPONSIVE STYLES
+   =========================== */
+
+/* Extra Small Devices (320px - 479px) */
+@media (min-width: 320px) and (max-width: 360px) {
+     /* Container */
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .search-box {
+        left: 0 ;
+        top: 5px;
+    }
+
+    /* Header */
+    .header-contacts {
+        width: 100%;
+        text-align: center;
+        padding-top: 33px;
+        position: relative;
+        top: 235px;
+    }
+
+    .fon01 {
+        height: 380px;
+    }
+
+    .button-sn {
+        top: -61px;
+        left: 80px;
+    }
+
+    .phone {
+        font-size: 22px;
+    }
+
+    .header-contacts h1 {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+    .mail {
+        font-size: 16px;
+    }
+
+    /* Hide desktop social icons */
+    .textmasage {
+        display: none !important;
+    }
+
+    /* Search box - hide on very small screens */
+   
+
+    /* Logo */
+    .logo {
+        padding: 20px 0 30px;
+        position: relative;
+        top: -80px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .logo h2,
+    .logo h3 {
+        font-size: 14px;
+    }
+
+    /* Content - News Section */
+    .Noviny {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .Noviny h1 a {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+        min-height: 100px;
+    }
+
+    
+
+    .card-foto img {
+        width: auto;
+        height: auto;
+        
+    }
+
+    .card-text {
+        position: static;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .card-text h1 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .card-text p {
+        position: static;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .card h2 {
+        width: 100px;
+        margin-top: 10px;
+        left: 250px ;
+        top: -30px ;
+    }
+
+    /* Advertisement Section */
+    .advertisement {
+        position: static;
+        width: 100%;
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .advertisement h1 a {
+        font-size: 22px;
+    }
+
+    .card01 {
+        width: 100%;
+        height: 90px;
+        padding: 15px 0;
+    }
+
+    .card01 h2 {
+        text-align: right;
+       
+        left: 230px;
+    }
+
+    /* Statistics Section */
+    .fon02 {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .stats-text {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+
+    .stats {
+        margin-top: 30px;
+        font-size: 18px;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .stats div {
+        margin-bottom: 20px;
+    }
+
+    .stats span {
+        font-size: 24px;
+    }
+
+    .left001 {
+        margin-left: 30px;
+    }
+
+    .left003 {
+        margin-left: 85px;
+    }
+    
+
+    /* Chart */
+    .chart {
+        position: static;
+        width: 100%;
+        padding: 20px 10px;
+        margin-top: 40px;
+    }
+
+    .chart-title {
+        font-size: 18px;
+        left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .chart-title::before {
+        display: none;
+    }
+
+    .bar-chart {
+        width: 100%;
+    }
+
+    .bar-label {
+        position: static;
+        font-size: 10px;
+        text-align: left;
+        left: 0;
+        top: 0;
+        height: auto;
+       
+    }
+
+    .bar-label::before {
+        display: none;
+    }
+
+    .bar::before {
+        display: none;
+    }
+
+    .bar-fill {
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    /* Appeal Cards */
+    .appeal-card {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .appeal-card h1 {
+        font-size: 24px;
+        padding: 20px 10px;
+    }
+
+    .appeal-card01,
+    .appeal-card02 {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+
+    .appeal-card01 h1,
+    .appeal-card02 h1 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .appeal-card01 h2,
+    .appeal-card02 h2 {
+        padding-top: 30px;
+        font-size: 28px;
+    }
+
+    .appeal-card01 h2 a {
+        font-size: 28px;
+    }
+
+    .appeal-card01 p,
+    .appeal-card02 p {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .button-mn {
+        width: 90%;
+        max-width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15px;
+        font-size: 16px;
+    }
+
+    .masage-card {
+        margin-top: 60px;
+    }
+
+    .masage-card svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Useful Links */
+    .information h1 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .information01,
+    .information02 {
+        position: static;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .information01 a,
+    .information02 a {
+        font-size: 18px;
+    }
+
+    .information01 li,
+    .information02 li {
+        margin-bottom: 15px;
+    }
+
+    /* Footer */
+    .fon03 {
+        padding: 30px 0;
+    }
+
+    .footer-nav {
+        width: 100%;
+        
+    }
+
+    .footer-list {
+        padding: 20px 15px;
+        position: static;
+        text-align: center;
+    }
+
+    .footer-list li {
+        margin-bottom: 10px;
+    }
+
+    .footer-list a {
+        font-size: 16px;
+    }
+
+    .footer-maps {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+        
+    }
+
+    .footer-maps h1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-contact {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+        
+    }
+
+    .footer-contact h1 a {
+        font-size: 36px;
+        position: static;
+    }
+
+    .footer-contact h2 {
+        font-size: 16px;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .footer-contact h3 {
+        position: static;
+        margin-top: 15px;
+    }
+
+    .footer-contact h3 a {
+        font-size: 18px;
+    }
+
+    .footer-masage {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb-list {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    /* Side Navigation */
+    .side-nav {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .side-nav__list {
+        border-left: none;
+        border-top: 1px solid #eff2f5;
+    }
+
+    .side-nav__item {
+        border-left: none;
+        border-bottom: 1px solid #eff2f5;
+    }
+
+    .side-nav__link {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+
+    /* Page specific */
+    .side-nav__page {
+        position: static;
+        width: 100%;
+    }
+
+    .side-nav__page h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .side-nav__list__page {
+        width: 100%;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    /* Page Noviny */
+    .page-Noviny {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .page-card__foto {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .page-card__foto img {
+        width: 100%;
+        height: auto;
+    }
+
+    .page-card__title {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card__title h1 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .page-card__title p {
+        position: static;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .page-card__text h1 {
+        font-size: 14px;
+        height: auto;
+    }
+
+    .page-card h2 {
+        position: static;
+        text-align: right;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .pagination-list {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    /* Page Advertisement */
+    .page-advertisement {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card01 {
+        width: 100%;
+        height: auto;
+    }
+
+    .page-card01 h3 {
+        position: static;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    /* Modal */
+    .modal-content {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .appeal-form input,
+    .appeal-form textarea {
+        width: 100%;
+    }
+
+    .appeal-form h3 {
+        position: static;
+        width: 100%;
+        left: 0;
+        top: 0;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    .file-upload {
+        left: 88px;
+        max-width: 150px;
+    }
+
+    .appeal-form button {
+        position: static;
+        left: 0;
+        width: 100%;
+        max-width: 200px;
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 479px) {
+    /* Container */
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .search-box {
+        left: 0 ;
+        top: 5px;
+    }
+
+    /* Header */
+    .header-contacts {
+        width: 100%;
+        text-align: center;
+        padding-top: 33px;
+        position: relative;
+        top: 235px;
+    }
+
+    .fon01 {
+        height: 380px;
+    }
+
+    .phone {
+        font-size: 22px;
+    }
+
+    .mail {
+        font-size: 16px;
+    }
+
+    .header-contacts h1 {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+     .button-sn {
+        top: -61px;
+        left: 80px;
+    }
+
+    .mail {
+        font-size: 16px;
+    }
+
+    /* Hide desktop social icons */
+    .textmasage {
+        display: none !important;
+    }
+
+    /* Search box - hide on very small screens */
+    
+
+    /* Logo */
+      .logo {
+        padding: 20px 0 30px;
+        position: relative;
+        top: -80px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .logo h2,
+    .logo h3 {
+        font-size: 14px;
+    }
+
+    /* Content - News Section */
+    .Noviny {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .Noviny h1 a {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+        min-height: 100px;
+    }
+
+    
+
+    .card-foto img {
+        width: auto;
+        height: auto;
+        
+    }
+
+    .card-text {
+        position: static;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .card-text h1 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .card-text p {
+        position: static;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .card h2 {
+        width: 100px;
+        margin-top: 10px;
+        left: 260px;
+        top: -30px ;
+    }
+
+    /* Advertisement Section */
+    .advertisement {
+        position: static;
+        width: 100%;
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .advertisement h1 a {
+        font-size: 22px;
+    }
+
+    .card01 {
+        width: 100%;
+        height: 90px;
+        padding: 15px 0;
+    }
+
+    .card01 h2 {
+        left: 260px;
+    }
+
+    /* Statistics Section */
+    .fon02 {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .stats-text {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+
+    .stats {
+        margin-top: 30px;
+        font-size: 18px;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .stats div {
+        margin-bottom: 20px;
+    }
+
+    .stats span {
+        font-size: 24px;
+    }
+
+    .left001 {
+        margin-left: 30px;
+    }
+
+    .left003 {
+        margin-left: 85px;
+    }
+
+    /* Chart */
+    .chart {
+        position: static;
+        width: 100%;
+        padding: 20px 10px;
+        margin-top: 40px;
+    }
+
+    .chart-title {
+        font-size: 18px;
+        left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .chart-title::before {
+        display: none;
+    }
+
+    .bar-chart {
+        width: 100%;
+    }
+
+    .bar-label {
+        position: static;
+        font-size: 10px;
+        text-align: left;
+        left: 0;
+        top: 0;
+        height: auto;
+       
+    }
+
+    .bar-label::before {
+        display: none;
+    }
+
+    .bar::before {
+        display: none;
+    }
+
+    .bar-fill {
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    /* Appeal Cards */
+    .appeal-card {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .appeal-card h1 {
+        font-size: 24px;
+        padding: 20px 10px;
+    }
+
+    .appeal-card01,
+    .appeal-card02 {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+
+    .appeal-card01 h1,
+    .appeal-card02 h1 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .appeal-card01 h2,
+    .appeal-card02 h2 {
+        padding-top: 30px;
+        font-size: 28px;
+    }
+
+    .appeal-card01 h2 a {
+        font-size: 28px;
+    }
+
+    .appeal-card01 p,
+    .appeal-card02 p {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .button-mn {
+        width: 90%;
+        max-width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15px;
+        font-size: 16px;
+    }
+
+    .masage-card {
+        margin-top: 60px;
+    }
+
+    .masage-card svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Useful Links */
+    .information h1 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .information01,
+    .information02 {
+        position: static;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .information01 a,
+    .information02 a {
+        font-size: 18px;
+    }
+
+    .information01 li,
+    .information02 li {
+        margin-bottom: 15px;
+    }
+
+    /* Footer */
+    .fon03 {
+        padding: 30px 0;
+    }
+
+    .footer-nav {
+        width: 100%;
+        
+    }
+
+    .footer-list {
+        padding: 20px 15px;
+        position: static;
+        text-align: center;
+    }
+
+    .footer-list li {
+        margin-bottom: 10px;
+    }
+
+    .footer-list a {
+        font-size: 16px;
+    }
+
+    .footer-maps {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+        
+    }
+
+    .footer-maps h1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-contact {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+        
+    }
+
+    .footer-contact h1 a {
+        font-size: 36px;
+        position: static;
+    }
+
+    .footer-contact h2 {
+        font-size: 16px;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .footer-contact h3 {
+        position: static;
+        margin-top: 15px;
+    }
+
+    .footer-contact h3 a {
+        font-size: 18px;
+    }
+
+    .footer-masage {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb-list {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    /* Side Navigation */
+    .side-nav {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .side-nav__list {
+        border-left: none;
+        border-top: 1px solid #eff2f5;
+    }
+
+    .side-nav__item {
+        border-left: none;
+        border-bottom: 1px solid #eff2f5;
+    }
+
+    .side-nav__link {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+
+    /* Page specific */
+    .side-nav__page {
+        position: static;
+        width: 100%;
+    }
+
+    .side-nav__page h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .side-nav__list__page {
+        width: 100%;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    /* Page Noviny */
+    .page-Noviny {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .page-card__foto {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .page-card__foto img {
+        width: 100%;
+        height: auto;
+    }
+
+    .page-card__title {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card__title h1 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .page-card__title p {
+        position: static;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .page-card__text h1 {
+        font-size: 14px;
+        height: auto;
+    }
+
+    .page-card h2 {
+        position: static;
+        text-align: right;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .pagination-list {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    /* Page Advertisement */
+    .page-advertisement {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card01 {
+        width: 100%;
+        height: auto;
+    }
+
+    .page-card01 h3 {
+        position: static;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    /* Modal */
+    .modal-content {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .appeal-form input,
+    .appeal-form textarea {
+        width: 100%;
+    }
+
+    .appeal-form h3 {
+        position: static;
+        width: 100%;
+        left: 0;
+        top: 0;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    .file-upload {
+        left: 88px;
+        max-width: 150px;
+    }
+
+    .appeal-form button {
+        position: static;
+        left: 0;
+        width: 100%;
+        max-width: 200px;
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+/* Small Devices (480px - 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    /* Header */
+    .header-contacts {
+        width: 100%;
+        text-align: center;
+    }
+
+    .phone {
+        font-size: 26px;
+    }
+
+    .header-contacts h1 {
+        font-size: 14px;
+    }
+
+    .mail {
+        font-size: 16px;
+    }
+
+    .textmasage {
+        display: none !important;
+    }
+
+    
+
+    .logo {
+        padding: 25px 0 35px;
+    }
+
+    .logo h1 {
+        font-size: 28px;
+    }
+
+    .logo h2,
+    .logo h3 {
+        font-size: 16px;
+    }
+
+    /* Content */
+    .Noviny {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .Noviny h1 a {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .card-foto {
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .card-foto img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .card-text {
+        position: static;
+        overflow: hidden;
+    }
+
+    .card-text h1 {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    .card-text p {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .card h2 {
+        position: static;
+        clear: both;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .advertisement {
+        position: static;
+        width: 100%;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .card01 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card01 h2 {
+        position: static;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    /* Statistics */
+    .fon02 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .stats-text {
+        font-size: 22px;
+    }
+
+    .stats {
+        margin-top: 40px;
+        font-size: 22px;
+        padding-left: 50px;
+    }
+
+    .stats span {
+        font-size: 28px;
+    }
+
+    .left001 {
+        margin-left: 50px;
+    }
+
+    .left003 {
+        margin-left: 90px;
+    }
+
+    .chart {
+        position: static;
+        width: 90%;
+        margin: 50px auto 0;
+        padding: 0 20px;
+    }
+
+    .chart-title {
+        left: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .chart-title::before {
+        display: none;
+    }
+
+    .bar-chart {
+        width: 100%;
+    }
+
+    .bar-label {
+        position: static;
+        font-size: 11px;
+        left: 0;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .bar-label::before {
+        display: none;
+    }
+
+    .bar::before {
+        display: none;
+    }
+
+    .bar-fill {
+        height: 28px;
+        line-height: 28px;
+    }
+
+    /* Appeal Cards */
+    .appeal-card {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .appeal-card h1 {
+        font-size: 28px;
+    }
+
+    .appeal-card01,
+    .appeal-card02 {
+        position: static;
+        width: 90%;
+        max-width: 450px;
+        height: auto;
+        margin: 25px auto;
+        padding: 40px 25px;
+        border-radius: 30px;
+    }
+
+    .appeal-card01 h2 a,
+    .appeal-card02 h2 {
+        font-size: 32px;
+    }
+
+    .button-mn {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .masage-card svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Useful Links */
+    .information h1 {
+        font-size: 26px;
+    }
+
+    .information01,
+    .information02 {
+        position: static;
+        width: 100%;
+        padding: 25px 30px;
+    }
+
+    .information01 a,
+    .information02 a {
+        font-size: 20px;
+    }
+
+    /* Footer */
+    .footer-nav {
+        width: 100%;
+    }
+
+    .footer-list {
+        position: static;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .footer-list a {
+        font-size: 18px;
+    }
+
+    .footer-maps {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .footer-maps h1 {
+        font-size: 16px;
+    }
+
+    .footer-contact {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+        height: auto;
+    }
+
+    .footer-contact h1 a {
+        font-size: 44px;
+        position: static;
+    }
+
+    .footer-contact h2 {
+        font-size: 18px;
+        position: static;
+    }
+
+    .footer-contact h3 {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .footer-contact h3 a {
+        font-size: 20px;
+    }
+
+    .footer-masage {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Side Nav */
+    .side-nav {
+        position: static;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .side-nav__page {
+        position: static;
+        width: 100%;
+    }
+
+    /* Page Noviny */
+    .page-Noviny {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .page-card__foto {
+        float: left;
+        margin-right: 20px;
+    }
+
+
+    .page-card__foto img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .page-card__title {
+        position: static;
+        overflow: hidden;
+    }
+
+    .page-card__title h1 {
+        width: 100%;
+    }
+
+    .page-card__title p {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .page-card h2 {
+        position: static;
+        clear: both;
+        text-align: right;
+    }
+
+    /* Page Advertisement */
+    .page-advertisement {
+        position: static;
+        width: 100%;
+    }
+
+    .page-card01 {
+        width: 100%;
+    }
+
+    .page-card01 h3 {
+        position: static;
+        text-align: right;
+    }
+
+    /* Modal */
+    .modal-content {
+        width: 90%;
+    }
+
+    .appeal-form input {
+        width: 70%;
+    }
+
+    .appeal-form h3 {
+        position: static;
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin: 15px 0;
+    }
+
+    .file-upload {
+        position: static;
+        left: 0;
+        margin: 15px 0;
+    }
+
+    .appeal-form button {
+        position: static;
+        left: 0;
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+/* Medium Devices - Tablets (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 720px;
+    }
+
+    /* Header */
+    .header-contacts {
+        width: auto;
+    }
+
+    .textmasage {
+        left: auto;
+        right: 20px;
+        top: -55px;
+    }
+
+    .search-box {
+        right: 150px;
+    }
+
+    .logo h1 {
+        font-size: 32px;
+    }
+
+    .button-sn {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+   
+
+    /* Content */
+    .Noviny {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 180px;
+        padding: 20px 0;
+    }
+
+    .card-foto img {
+        width: 180px;
+        height: 120px;
+    }
+    
+    .footer-maps {
+        width: 200px;
+    }
+
+    .card-text {
+        top: -105px;
+        left: 200px;
+        width: calc(100% - 220px);
+    }
+
+    .card-text h1 {
+        width: 100%;
+    }
+
+    .card-text p {
+        top: 55px;
+    }
+
+    .card h2 {
+        top: -70px;
+        left:580px ;
+        
+    }
+
+    .advertisement {
+        position: static;
+        width: 100%;
+        padding-top: 50px;
+        height: auto;
+    }
+
+    .card01 {
+        width: 100%;
+    }
+
+    .card01 h2 {
+        left: auto;
+        right: -590px;
+    }
+
+    /* Statistics */
+    .fon02 {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .stats {
+        padding-left: 100px;
+    }
+
+    .chart {
+        position: relative;
+        width: 50%;
+        margin: 60px auto 0;
+        left: 184px ;
+        top: 10px;
+    }
+
+    .bar-chart {
+        width: 91%;
+    }
+
+    .chart-title::before {
+     left: 164px;
+    }
+ 
+
+    .chart-title {
+        left: -175px;
+        text-align: center;
+    }
+
+   
+
+    .bar-label {
+        left: -300px;
+        font-size: 13px;
+    }
+
+    .bar-label::before {
+        left: 340px;
+    }
+
+    /* Appeal Cards */
+    .appeal-card {
+        height: 1200px;
+        padding-bottom: 50px;
+    }
+
+    .appeal-card01 {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 30px;
+    }
+
+    .appeal-card02 {
+        position: relative;
+        left: 34.7%;
+        top: 3%;
+        transform: translateX(-50%);
+        margin: 0 auto;
+    }
+
+    .button-mn {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Useful Links */
+    .information01,
+    .information02 {
+        position: static;
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 30px 20px;
+    }
+
+    /* Footer */
+    .footer-list {
+        left: -120px;
+        top: 61px;
+    }
+
+    .footer-list a {
+        font-size: 17px;
+    }
+
+    .footer-maps {
+        left: 526px;
+        top: -56px;
+    }
+
+    .footer-maps h1 {
+        font-size: 17px;
+    }
+
+    .footer-contact {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -230px;
+    }
+
+    .footer-contact h1 a {
+        font-size: 56px;
+    }
+
+    .footer-contact h2 {
+        font-size: 16px;
+    }
+
+    .footer-masage {
+        left: 59%;
+        transform: translateX(-50%);
+        top: -60px;
+    }
+
+    /* Side Nav */
+    .side-nav {
+        left: auto;
+        right: 20px;
+    }
+
+    .side-nav__page {
+        left: 50px;
+        width: calc(100% - 300px);
+    }
+
+    /* Page Noviny */
+    .page-Noviny {
+        left: 20px;
+        width: calc(100% - 280px);
+    }
+
+    .page-card {
+        width: 100%;
+    }
+
+    .page-card__title {
+        left: 320px;
+        width: calc(100% - 340px);
+    }
+
+    .page-card h2 {
+        left: auto;
+        right: 0;
+    }
+
+    /* Page Advertisement */
+    .page-advertisement {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+    }
+
+    .page-card01 {
+        width: 100%;
+    }
+
+    .page-card01 h2 {
+        width: 100%;
+    }
+
+    .page-card01 h3 {
+        left: auto;
+        right: 0;
+    }
+
+    /* Modal */
+    .appeal-form h3 {
+        position: static;
+        width: 70%;
+        left: 0;
+        top: 0;
+        margin: 15px 0;
+    }
+
+    .file-upload {
+        left: auto;
+        right: 150px;
+    }
+
+    .appeal-form button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Large Tablets / Small Laptops (1024px - 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .textmasage {
+        left: auto;
+        right: 50px;
+    }
+
+    .search-box {
+        right: 200px;
+    }
+
+    .button-sn {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Content */
+    .Noviny {
+        width: 600px;
+    }
+
+    .card {
+        width: 600px;
+    }
+
+    .card-text {
+        left: 170px;
+        width: 400px;
+    }
+
+    .card-text h1 {
+        width: 400px;
+    }
+
+    .card h2 {
+        left: 520px;
+    }
+
+    .advertisement {
+        left: 650px;
+        top: -700px;
+        width: 300px;
+    }
+
+    .card01 {
+        width: 300px;
+    }
+
+    .card01 h2 {
+        left: 200px;
+    }
+
+    /* Statistics */
+    .stats {
+        padding-left: 120px;
+    }
+
+    .chart {
+        left: 700px;
+        top: -320px;
+        width: 300px;
+    }
+
+    .chart-title {
+        left: -80px;
+    }
+
+    .bar-label {
+        left: -220px;
+    }
+
+    /* Appeal Cards */
+    .appeal-card01 {
+        left: 100px;
+    }
+
+    .appeal-card02 {
+        left: 580px;
+    }
+
+    .button-mn {
+        left: 75px;
+    }
+
+    /* Useful Links */
+    .information02 {
+        left: 650px;
+        width: 300px;
+    }
+
+    /* Footer */
+    .footer-maps {
+        left: 750px;
+        width: 280px;
+    }
+
+    .footer-contact {
+        left: 350px;
+        width: 450px;
+    }
+
+    .footer-masage {
+        left: 480px;
+    }
+
+    /* Side Nav */
+    .side-nav {
+        left: 800px;
+    }
+
+    .side-nav__page {
+        left: 150px;
+        width: 700px;
+    }
+
+    /* Page Noviny */
+    .page-Noviny {
+        left: 50px;
+        width: 700px;
+    }
+
+    .page-card {
+        width: 700px;
+    }
+
+    .page-card__title {
+        left: 310px;
+        width: 350px;
+    }
+
+    .page-card h2 {
+        left: 600px;
+    }
+
+    /* Page Advertisement */
+    .page-advertisement {
+        left: 150px;
+        width: 600px;
+    }
+
+    .page-card01 {
+        width: 600px;
+    }
+
+    .page-card01 h2 {
+        width: 600px;
+    }
+
+    .page-card01 h3 {
+        left: 500px;
+    }
+}
+
+/* Desktop / Large screens (1200px and up) - moved from main.css */
+@media (min-width: 1200px) {
+    .nav {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-between;
+        color: azure;
+        border-top: 2px solid rgba(255, 255, 255, 0.5);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-arrow { display: none; }
+
+    .nav-list { list-style: none; margin: 0; padding: 0; display: flex; }
+
+    .nav-list > li { position: relative; }
+
+    .nav-list > li > a { display: block; color: white; text-decoration: none; padding: 15px 20px; }
+    .nav-list > li > a:hover { text-decoration: underline; }
+
+    .nav-list li ul {
+        display: none; position: absolute; top: 100%; left: 0; background-color: #356799;
+        list-style: none; padding: 0; margin: 0; min-width: 220px; z-index: 10;
+    }
+
+    .nav-list li ul li a { display: block; padding: 10px 15px; color: white; text-decoration: none; }
+    .nav-list li ul li a:hover { text-decoration: underline; }
+
+    .nav-list li:hover > ul { display: block; }
+    .nav-list li ul { opacity: 0; visibility: hidden; }
+    .nav-list li:hover ul { opacity: 1; visibility: visible; }
+}
+
+/* Mobile/Tablet navigation and burger rules (moved from burger.css) */
+@media (max-width: 1200px) {
+  
+  body._lock { overflow: hidden; }
+  .nav-icon { z-index: 5; display: block; position: relative; width: 30px; height: 18px; cursor: pointer; left: 500px; top: -200px; }
+
+  .nav-arrow { display: block; color: #fff; position: absolute; left: 300px; top: 10px; transition: transform 0.3s ease; }
+
+  .nav-icon span, .nav-icon::before, .nav-icon::after { left: 0; position: absolute; height: 10%; width: 100%; transition: all 0.3s ease; background-color: #fff; }
+  .nav-icon::before, .nav-icon::after { content: ""; }
+  .nav-icon::before { top: 0; }
+  .nav-icon::after { bottom: 0; }
+  .nav-icon span { top: 50%; transform: scale(1) translate(0, -50%); }
+
+  .nav { position: fixed; z-index: 2; top: 0; left: 0; width: 100%; height: 100%; transform: translate(-100%, 0); background-image: -webkit-radial-gradient(50% 50%, closest-side, rgb(17, 50, 83) 0%, #152e49 100%); transition: all 0.3s ease; overflow: auto; }
+  .nav.__active { transform: translate(0, 0); }
+
+  .nav-list > li { padding: 10px 0px; border-top: 1px solid #ffffff70; border-bottom: 1px solid #ffffff70; position: relative; width: 384px; }
+  .nav-list { padding: 60px 30px 0 0; }
+  .nav-list a { padding-left: 30px; width: 275px; }
+
+  .nav-list li ul { position: relative; top: 0; left: 0; background-image: -webkit-radial-gradient(50% 50%, closest-side, rgb(17,50,83) 0%, #152e49 100%); list-style: none; padding: 0; margin: 0; min-width: 220px; max-height: 0; opacity: 0; overflow: hidden; transform: translateY(-10px); transition: max-height .3s cubic-bezier(.25,1,.3,1), opacity .3s ease, transform .4s cubic-bezier(.25,1,.3,1); }
+  .nav-list li._active > ul { max-height: 500px; opacity: 1; transform: translateY(0); transition: all .4s ease 0s; }
+  .nav-list li._active .nav-arrow { transform: rotate(-180deg); }
+
+  .nav-list > li > a { display: block; color: white; text-decoration: none; font-size: 24px; }
+  .nav-list li ul li a { display: block; padding: 10px 0 15px 20px; color: white; text-decoration: none; }
+
+  
+  .search_box-tach { display: flex; align-items: center; background: #fff; border-radius: 25px; padding: 5px 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); width: 250px; transition: .3s; position: relative; left: 60px; top: 47px; }
+  .search_box-tach input { border: none; outline: none; flex: 1; font-size: 16px; }
+  .search_box-tach button { border: none; color: #000; padding: 8px 12px; cursor: pointer; transition: background .3s; }
+
+  .textmasage { display: none; }
+  .textmasage-tach { display: flex; position: relative; width: 196px; left: 97px; top: 37px; }
+  .facebook_img-tach, .viber_img-tach, .telegram_img-tach { width: 40px; position: relative; top: -11px; }
+  .instagram_img-tach { width: 44px; position: relative; top: -12px; }
+  .nav__sub-list li { padding-left: 37px; }
+  .button-tack { display: block; }
+  .button-tack { background: #fff; width: 200px; text-align: center; border-radius: 20px; padding: 10px; position: relative; left: 100px; top: 60px; }
+  .button-tack a { color: #000; font-size: 20px; font-weight: 500; }
+}
+
+/* Nav-icon fine positioning for smaller breakpoints (moved nested queries) */
+@media (max-width: 479px) { .nav-icon { left: calc(100% - 50px); top: -267px; } }
+@media (min-width: 480px) and (max-width: 767px) { .nav-icon { left: calc(100% - 60px); top: -210px; } }
+@media (min-width: 768px) and (max-width: 1023px) { .nav-icon { left: calc(100% - 70px); top: -236px; } }
+@media (min-width: 1024px) and (max-width: 1199px) { .nav-icon { left: calc(100% - 80px); top: -200px; } }
+@media (min-width: 412px) and (max-width: 431px) { .button-sn { left: 100px;}}
