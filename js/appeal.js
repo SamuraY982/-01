@@ -14,12 +14,6 @@
         modal.style.display = "flex";
       });
 
-       // открыть модалку
-      openBtntack.addEventListener("click", (e) => {
-        e.preventDefault();
-        modal.style.display = "flex";
-      });
-
         // открыть модалку
       openBtn2.addEventListener("click", (e) => {
         e.preventDefault();
