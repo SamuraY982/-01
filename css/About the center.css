@@ -1,12 +1,17 @@
 
 .about-info {
     position: relative;
-    top: -180px;
+    top: -200px;
     width: 1150px;
 }
 
 .about-info h1, h2, h3, h4, h5, h6 {
     margin-top: 15px;
+}
+
+.about-info h1 {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .about-info h1 {
