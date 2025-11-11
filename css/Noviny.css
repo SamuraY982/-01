@@ -63,23 +63,27 @@
 
 
 .page-Noviny {
-    width: 900px;
+    width: 1100px;
     position: relative;
     top: -125px;
-    
-    
 }
+
+.page-Noviny__title {
+    border-bottom: 1px solid #cfcfcf ;
+}
+
 
 .page-Noviny h1 a {
     
  font-size: 25px;
  font-weight: 700;
  color: #16416d;
+ 
 }
 
 .page-card {
     padding-top: 20px;
-    width: 960px;
+    width: 1100px;
     height: 210px;
    border-bottom: 1px solid rgb(229 231 235);
 }
@@ -91,7 +95,7 @@
 }
 
 .page-card__title h1 {
-width: 620px;
+width: 760px;
 }
 
 .page-card__title  {
@@ -121,7 +125,7 @@ width: 620px;
 .page-card h2 {
     position: relative;
    top:-182px ;
-   left: 850px;
+   left: 990px;
    width: 120px;
 }
 
