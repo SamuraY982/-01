@@ -1,7 +1,7 @@
 
 .about-info {
     position: relative;
-    top: -200px;
+    top: -225px;
     width: 1150px;
 }
 
@@ -9,10 +9,7 @@
     margin-top: 15px;
 }
 
-.about-info h1 {
-    margin-bottom: 50px;
-    padding-bottom: 10px;
-}
+
 
 .about-info h1 {
     font-size: 25px;
