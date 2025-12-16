@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+
 </head>
 <body>
     <header class="header">
@@ -191,6 +193,491 @@
   </div>
 </header>
 
+<content11>
+    <div class="balance-module">
+
+  <!-- HEADER -->
+  <div class="balance-header">
+    <div>
+      <div class="balance-title">Total Balance</div>
+      <div class="balance-total">0 USD</div>
+      <div class="balance-sub">≈ 0 BTC</div>
+    </div>
+
+    <div class="balance-actions">
+      <button class="balance-btn primary" data-action="deposit">Deposit</button>
+      <button class="balance-btn" data-action="swap">Swap</button>
+      <button class="balance-btn" data-action="transfer">Transfer</button>
+      <button class="balance-btn" data-action="withdraw">Withdraw</button>
+    </div>
+  </div>
+
+  <div class="balance-search">
+  <input
+    type="text"
+    id="balanceSearch"
+    placeholder="Search"
+  >
+</div>
+
+
+  <!-- TABLE -->
+  <table class="balance-table">
+    <thead>
+      <tr>
+        <th>Asset</th>
+        <th class="balance-sort" data-col="1">Overall</th>
+        <th class="balance-sort" data-col="2">Main</th>
+        <th class="balance-sort" data-col="3">Trade</th>
+        <th class="balance-sort" data-col="4">Collateral</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/BTC.svg"
+        alt="BTC"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>BTC</strong>
+        <small>Bitcoin</small>
+      </div>
+    </div>
+  </td>
+
+  <td>12312.00</td>
+  <td>4333.00</td>
+  <td>222.00</td>
+  <td>1231231.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/ETH.svg"
+        alt="ETH"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>ETH</strong>
+        <small>Ethereum</small>
+      </div>
+    </div>
+  </td>
+
+  <td>31231.00</td>
+  <td>3131.00</td>
+  <td>2313.00</td>
+  <td>545.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/USDT.svg"
+        alt="ETH"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>USDT</strong>
+        <small>Tether USDT</small>
+      </div>
+    </div>
+  </td>
+
+  <td>31231.00</td>
+  <td>3131.00</td>
+  <td>2313.00</td>
+  <td>545.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/BNB.svg"
+        alt="BNB"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>BNB</strong>
+        <small>BNB</small>
+      </div>
+    </div>
+  </td>
+
+  <td>31231.00</td>
+  <td>3131.00</td>
+  <td>2313.00</td>
+  <td>545.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/SOL.svg"
+        alt="SOL"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>SOL</strong>
+        <small>Solana</small>
+      </div>
+    </div>
+  </td>
+
+  <td>31231.00</td>
+  <td>3131.00</td>
+  <td>2313.00</td>
+  <td>545.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/USDC.svg"
+        alt="USDC"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>USDC</strong>
+        <small>USD Coin</small>
+      </div>
+    </div>
+  </td>
+
+  <td>31231.00</td>
+  <td>3131.00</td>
+  <td>2313.00</td>
+  <td>545.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/XRP.svg"
+        alt="XRP"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>XRP</strong>
+        <small>Ripple</small>
+      </div>
+    </div>
+  </td>
+
+  <td>31231.00</td>
+  <td>3131.00</td>
+  <td>2313.00</td>
+  <td>545.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="balance-asset">
+      <img
+        src="../Img/token/DOGE.svg"
+        alt="DOGE"
+        class="balance-coin-icon"
+      >
+      <div>
+        <strong>DOGE</strong>
+        <small>DOGE</small>
+      </div>
+    </div>
+  </td>
+
+  <td>31231.00</td>
+  <td>3131.00</td>
+  <td>2313.00</td>
+  <td>545.00</td>
+  <td class="balance-row-actions">
+    <button>Deposit</button>
+    <button>Swap</button>
+    <button>Withdraw</button>
+  </td>
+</tr>
+
+    </tbody>
+  </table>
+</div>
+
+<div class="deposit-modal" id="depositModal">
+  <div class="deposit-overlay"></div>
+
+  <div class="deposit-window">
+    <button class="deposit-close" id="depositClose">✕</button>
+
+    <div class="deposit-header">
+      <h2>Deposit <span id="depositCoinTitle">USDT</span></h2>
+      <span class="deposit-online">● Online</span>
+    </div>
+
+    <div class="deposit-content">
+
+      <!-- LEFT -->
+      <div class="deposit-left">
+
+        <div class="deposit-coin-select">
+          <select id="depositCoinSelect">
+            <option value="USDT">Tether USDT</option>
+            <option value="BTC">Bitcoin BTC</option>
+            <option value="ETH">Ethereum ETH</option>
+            <option value="BNB">BNB</option>
+            <option value="SOL">Solana</option>
+            <option value="USDC">USD Coin</option>
+            <option value="XRP">Ripple</option>
+            <option value="DOGE">DOGE</option>
+          </select> 
+        </div>
+
+        <div class="deposit-balance">
+          <span>General balance:</span>
+          <strong>0.0 USDT</strong>
+        </div>
+
+        <div class="deposit-trading">
+          Go to trading:
+          <b>BTC</b> <b>ETH</b> <b>USDT</b> <b>USDC</b> <b>TRX</b> <b>TON</b> <b>BNB</b>
+        </div>
+
+        <div class="deposit-networks-title">
+          Select the address type:
+        </div>
+
+        <div class="deposit-networks">
+          <button class="net">TON</button>
+          <button class="net">ERC20</button>
+          <button class="net">TRC20</button>
+          <button class="net">BEP20</button>
+        </div>
+
+        <div class="deposit-warning" id="depositWarning">
+
+  <!-- DEFAULT TEXT (пока сеть не выбрана) -->
+  <div class="warning-default" id="warningDefault">
+    Send only <b id="defaultCoin">USDT</b> to the deposit address.
+    Sending any other coins or tokens to this address may result in loss of funds.
+  </div>
+
+  <!-- NETWORK TEXT (появляется после выбора сети) -->
+  <div class="warning-network" id="warningNetwork">
+    <b>Selected network:</b> <span id="networkName">TRC20</span><br><br>
+    Before sending funds, pay attention to the selected token standard.
+    Make sure that you use the selected network when transferring funds.
+    Otherwise your funds may be lost.<br><br>
+    Send only <b id="warningCoin">USDT</b> to the deposit address.
+  </div>
+
+</div>
+
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="deposit-right">
+
+  <!-- BEFORE CLICK -->
+  <div class="deposit-placeholder" id="depositPlaceholder">
+    <div class="deposit-qr-wrapper blurred">
+      <div class="deposit-qr-blur"></div>
+    </div>
+
+    <div class="deposit-divider"></div>
+
+    <ul class="deposit-steps">
+      <li>Click the “Deposit to Address” button</li>
+      <li>Transfer the required amount of coins to the provided address</li>
+      <li>Wait for the funds to be credited to your account</li>
+    </ul>
+
+    <button class="deposit-main-btn" id="depositGenerateBtn"disabled>
+  Deposit to Address
+</button>
+
+  </div>
+
+  <!-- AFTER CLICK -->
+  <div class="deposit-data" id="depositData">
+
+    <div class="deposit-qr-wrapper">
+      <div id="depositQr" class="deposit-qr"></div>
+      <div class="deposit-success">✔</div>
+    </div>
+
+    <div class="deposit-divider"></div>
+
+    <ul class="deposit-steps">
+      <li>Click the “Deposit to Address” button</li>
+      <li>Transfer the required amount of coins to the provided address</li>
+      <li>Wait for the funds to be credited to your account</li>
+    </ul>
+
+    <div class="deposit-address-block">
+      <label>Deposit address</label>
+
+      <div class="deposit-address-input">
+        <input id="depositAddress" readonly>
+        <button id="copyDepositAddress">📋</button>
+      </div>
+
+      <div class="deposit-min">
+        Minimum deposit amount: <span>10 USDT</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<div class="withdraw-modal" id="withdrawModal">
+  <div class="withdraw-overlay"></div>
+
+  <div class="withdraw-window">
+    <button class="withdraw-close" id="withdrawClose">✕</button>
+
+    <div class="withdraw-header">
+      <h2>Withdraw <span id="withdrawCoinTitle">BTC</span></h2>
+      <span class="withdraw-online">● Online</span>
+    </div>
+
+    <div class="withdraw-content">
+
+      <!-- LEFT -->
+      <div class="withdraw-left">
+        <div class="withdraw-coin-select">
+          <select id="withdrawCoinSelect">
+            <option value="BTC">Bitcoin BTC</option>
+            <option value="ETH">Ethereum ETH</option>
+            <option value="USDT">Tether USDT</option>
+            <option value="BNB">BNB</option>
+            <option value="SOL">Solana</option>
+          </select>
+        </div>
+
+        <div class="withdraw-balance">
+          <span>General balance:</span>
+          <strong id="withdrawBalance">0.0 BTC</strong>
+        </div>
+
+        <div class="withdraw-trading">
+          Go to trading:
+          <b>BTC</b> <b>ETH</b> <b>USDT</b> <b>BNB</b> <b>SOL</b> <b>USDC</b> <b>XRP</b>
+        </div>
+
+        <div class="withdraw-networks-title">
+          Select the address type:
+        </div>
+
+        <div class="withdraw-networks">
+          <button class="net active">BTC</button>
+        </div>
+
+        <div class="withdraw-warning">
+          We only send funds to the network of your choice.
+          Make sure you choose the right network before withdrawing funds!
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="withdraw-right">
+        <label class="withdraw-label">
+          Withdrawal Address
+          <span class="info">?</span>
+        </label>
+        <input type="text" placeholder="Address">
+
+        <div class="withdraw-amount">
+          <input type="number" id="withdrawAmount" placeholder="0">
+          <span class="available">
+            Available balance:
+            <a href="#">0.0</a>
+          </span>
+        </div>
+
+        <div class="withdraw-toggle">
+          <label class="switch">
+            <input type="checkbox" id="commissionToggle">
+            <span class="slider"></span>
+          </label>
+          Show amount with commission
+        </div>
+
+        <div class="withdraw-summary">
+           <span>You’ll Pay: <b id="payAmount">0 BTC</b></span>
+           <span>You’ll Receive: <b id="receiveAmount">0 BTC</b></span>
+        </div>
+
+        <button class="withdraw-main-btn">
+          Request withdrawal
+        </button>
+
+        <div class="withdraw-footer">
+          Payments can take anywhere from a few minutes to a few hours to process.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+</content11>
+
+
 
 <footer class="footer">
   <div class="footer-container">
@@ -246,6 +733,6 @@
   </div>
 </footer>
 
-
+<script src="../JS/Balance.js"></script>
 </body>
 </html>
