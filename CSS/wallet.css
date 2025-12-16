@@ -1,0 +1,660 @@
+/* ====== BALANCE MODULE (УНИКАЛЬНЫЕ ИМЕНА) ====== */
+.balance-module {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.balance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.balance-title {
+  color: #888;
+  font-size: 14px;
+}
+
+.balance-total {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
+
+.balance-sub {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.balance-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.balance-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  color: black;
+}
+
+.balance-btn.primary {
+  background: #f4a640;
+  border: none;
+  font-weight: 600;
+  color: black;
+}
+
+/* ====== TABLE ====== */
+.balance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.balance-table thead {
+  background: #f6f7f9;
+}
+
+.balance-table th,
+.balance-table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  color: black;
+}
+
+/* ====== SORTABLE ====== */
+.balance-sort {
+  cursor: pointer;
+  user-select: none;
+}
+
+.balance-sort::after {
+  content: " ↕";
+  font-size: 12px;
+  color: #bbb;
+}
+
+.balance-sort.asc::after { content: " ↑"; }
+.balance-sort.desc::after { content: " ↓"; }
+
+/* ====== ASSET CELL ====== */
+.balance-asset {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.balance-asset small {
+  display: block;
+  font-size: 12px;
+  color: #999;
+}
+
+.balance-coin-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #f6f7f9;
+}
+
+
+/* ====== ROW ACTIONS ====== */
+.balance-row-actions button {
+  margin-right: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.balance-search {
+    float: right;
+    padding-bottom: 30px;
+}
+
+.balance-search input {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  width: 180px;
+  color: black;
+}
+
+.balance-search input:focus {
+  border-color: #f4a640;
+}
+
+
+/* ====== DEPOSIT MODAL ====== */
+.deposit-window {
+  position: relative;
+  background: #fff;
+  width: 1100px;
+  max-width: 95%;
+  margin: 40px auto;       /* центр */
+  border-radius: 16px;
+  padding: 24px 28px;
+}
+
+
+.deposit-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.deposit-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+.deposit-online {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #2ecc71;
+  background: #ecf9f1;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.deposit-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* LEFT */
+.deposit-left {
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.deposit-coin-select select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+.deposit-balance {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.deposit-trading {
+  font-size: 13px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.deposit-trading b {
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.deposit-networks-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.deposit-networks {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.deposit-networks .net {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  color: black;
+}
+
+.deposit-networks .net.active {
+  border-color: #f4a640;
+  background: #fff7ec;
+}
+
+.deposit-warning {
+  background: #f6f7f9;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* RIGHT */
+.deposit-right {
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deposit-qr {
+  width: 220px;
+  height: 220px;
+  background: #eee;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.deposit-steps {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.deposit-steps li {
+  margin-bottom: 8px;
+}
+
+.deposit-main-btn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background: #f4a640;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.deposit-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;           /* 🔴 ВАЖНО */
+}
+
+.deposit-modal.active {
+  display: block;          /* 🔴 ВАЖНО */
+}
+
+.deposit-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+#warningNetwork {
+  display: none;
+}
+
+.warning-default {
+    color: black;
+}
+
+.warning-network {
+    color: black;
+}
+
+/* ====== withdraw ====== */
+
+.withdraw-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 1000;
+}
+.withdraw-modal.active { display: block; }
+
+.withdraw-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+}
+
+.withdraw-window {
+  background: #fff;
+  width: 1100px;
+  max-width: 95%;
+  margin: 40px auto;
+  border-radius: 16px;
+  padding: 24px 28px;
+  position: relative;
+}
+
+.withdraw-close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.withdraw-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.withdraw-header h2 { 
+    font-size: 22px; 
+    font-weight: 600;
+    color: black;
+}
+
+.withdraw-online {
+  display: inline-block;
+  font-size: 13px;
+  color: #2ecc71;
+  background: #ecf9f1;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.withdraw-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* LEFT */
+.withdraw-left,
+.withdraw-right {
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.withdraw-coin-select select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 16px;
+  color: black;
+}
+
+.withdraw-balance {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.withdraw-networks-title {
+    color: black;
+}
+
+.withdraw-trading {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.withdraw-networks .net {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  width: 100%;
+  font-weight: 500;
+  color: black;
+}
+
+.withdraw-warning {
+  background: #f6f7f9;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  margin-top: 20px;
+  color: black;
+}
+
+/* RIGHT */
+.withdraw-label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: black;
+}
+
+.withdraw-right input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.withdraw-amount {
+  position: relative;
+}
+
+.available {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 13px;
+  color: #777;
+}
+
+.withdraw-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin: 16px 0;
+  color: black;
+}
+
+.withdraw-summary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+.withdraw-main-btn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background: #f4a640;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.withdraw-footer {
+  font-size: 13px;
+  color: #777;
+  margin-top: 12px;
+}
+
+/* TOGGLE */
+.switch {
+  position: relative;
+  width: 40px;
+  height: 22px;
+}
+.switch input { display: none; }
+.slider {
+  position: absolute;
+  inset: 0;
+  background: #ccc;
+  border-radius: 999px;
+}
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+}
+.switch input:checked + .slider {
+  background: #f4a640;
+}
+.switch input:checked + .slider::before {
+  transform: translateX(18px);
+}
+
+.deposit-close {
+    position: absolute;
+  right: 16px;
+  top: 16px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* QR BLOCK */
+.deposit-qr-wrapper {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 16px;
+  background: #fff;
+}
+
+.deposit-qr {
+  width: 200px;
+  height: 200px;
+}
+
+.deposit-qr-blur {
+  width: 200px;
+  height: 200px;
+  background: #dcdcdc;
+  border-radius: 10px;
+  filter: blur(8px);
+}
+
+/* SUCCESS ICON */
+.deposit-success {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 32px;
+  height: 32px;
+  background: #eaf7ef;
+  color: #3cb371;
+  border-radius: 50%;
+  font-size: 18px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #fff;
+}
+
+/* DIVIDER */
+.deposit-divider {
+  height: 1px;
+  background: #e6e6e6;
+  margin: 14px 0;
+}
+
+/* STEPS */
+.deposit-steps {
+  font-size: 14px;
+  color: #777;
+  padding-left: 18px;
+  margin-bottom: 18px;
+}
+
+.deposit-steps li {
+  margin-bottom: 6px;
+}
+
+/* BUTTON */
+.deposit-main-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  background: #f4a640;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.deposit-main-btn:hover {
+  background: #e79a35;
+}
+
+/* ADDRESS */
+.deposit-address-block label {
+  font-size: 14px;
+  color: #777;
+}
+
+.deposit-address-input {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.deposit-address-input input {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background: #fafafa;
+}
+
+.deposit-address-input button {
+  width: 42px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.deposit-min {
+  font-size: 13px;
+  color: #777;
+  margin-top: 6px;
+}
+
+.deposit-min span {
+  color: #e5533d;
+  font-weight: 500;
+}
+
+/* STATES */
+.deposit-data {
+  display: none;
+}
