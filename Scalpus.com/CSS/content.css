@@ -1,0 +1,338 @@
+.fon01 {
+    background-color: black; 
+    background-image: url('../Img/fon/fon01.png');
+    background-size: auto 200%;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.title_01 {
+    display: block;
+    padding-top: 150px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text_01 {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a686c;
+}
+
+.btn_01 {
+    margin:20px 0 100px 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    background: #f0a031;
+    color: #1b1204;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.monitoring {
+    padding-left: 150px;
+    padding-top: 50px;
+    display: flex;
+    column-gap: 30px;
+    
+}
+
+.monitoring-card {
+    background-color: #edebed78;
+    border-radius: 8px;
+    padding:20px 10px 20px 10px;
+    width: 250px;
+    columns: 2;
+}
+
+.token {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+
+.cripto_name {
+    color: black;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.cripto_price {
+    color: black;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    
+}
+
+
+.percent img {
+    padding: 20px 0 0 0;
+}
+
+.cripto_up {
+    color: green;
+    font-size: 15px;
+    padding: 0 0 0 40px;
+}
+
+
+.market {
+    padding-top: 50px;
+}
+
+.market_title {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+.market_text {
+    display: block;
+    padding-top: 20px;
+    color: black;
+}
+
+
+.market-block {
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 12px 0;
+  font-size: 15px;
+  color: #999;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab.active {
+  color: #111;
+  font-weight: 600;
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background: #f0a031;
+}
+
+/* TABLE */
+.table {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.2fr 1.5fr 1fr;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.table.head {
+  color: #999;
+  font-size: 13px;
+}
+
+.table.row {
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+/* COIN */
+.coin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coin img {
+  width: 24px;
+  height: 24px;
+}
+
+/* CHART */
+.chart img {
+  width: 120px;
+  height: 36px;
+}
+
+/* COLORS */
+.green { color: #21b26b; }
+.red { color: #e5533d; }
+
+/* BUTTON */
+.trade-btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  width: 100px;
+  color: black;
+}
+
+.trade-btn:hover {
+  background: #d3d2d2;
+}
+
+/* TAB CONTENT */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.color_coin {
+    color: #000000;
+}
+
+.fon02 {
+    background-color: black; 
+    background-image: url('../Img/fon/fon02.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
+}
+
+.title_02 {
+    display: block;
+    padding-top: 130px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.text_02 {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a686c;
+}
+
+.info01 {
+    text-align: center;
+}
+
+.info03{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.info02 {
+    text-align: center;
+    padding-top: 100px;
+}
+.info_title {
+    display: block;
+    padding-top: 100px;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.info-icon  {
+    width: 300px;
+    height: 300px;
+}
+
+.info_name {
+    display: block;
+    color: black;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.info_text {
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6a686c;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.info04 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: black;
+    border-radius: 12px;
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info_04_title {
+    display: block;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.info_04_text {
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6a686c;
+}
+
+.info_04_btm {
+    margin-top: 20px;
+}
+
+.info_04__btm {
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    background: #f0a031;
+    color: #1b1204;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fon03 {
+    
+    background-image: url('../Img/fon/fon03.png');
+     background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 500px;
+}
+
+.title_03 {
+    display: block;
+    
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+}
