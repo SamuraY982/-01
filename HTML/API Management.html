@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/settings.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+<body>
+    <header class="header">
+  <div class="container">
+    <div class="header-inner">
+
+      <button class="burger" aria-label="Menu">
+     <span></span>
+     <span></span>
+     <span></span>
+     </button>
+
+      <!-- LEFT -->
+      <nav class="nav">
+        <div class="nav-item">
+          <span class="nav-link">Trading <span class="chev"></span></span>
+          <div class="dropdown">
+            <div class="dd-item"><div class="dd-title"> <a href="../HTML/Markets.html">Markets</a> </div><div class="dd-desc">View the latest crypto prices</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="../HTML/Swap.html">Swap</a></div><div class="dd-desc">Quick conversion</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="../HTML/Spot.html">Spot</a></div><div class="dd-desc">Buy and sell crypto</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="../HTML/Margin.html">Margin</a></div><div class="dd-desc">Trade with leverage</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="../HTML/Tournament.html">Tournament</a></div><div class="dd-desc">Increase trading volume</div></div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <span class="nav-link">Futures <span class="chev"></span></span>
+          <div class="dropdown small">
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/USDT Perpetuals.html">USDT Perpetuals</a></div><div class="dd-desc">Settled in USDT</div></div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <span class="nav-link">Tools <span class="chev"></span></span>
+          <div class="dropdown">
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Market Cap.html">Market Cap</a></div><div class="dd-desc">Total crypto value</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Market Screener.html">Market Screener</a></div><div class="dd-desc">Filter markets</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Cross Rates.html">Cross Rates</a></div><div class="dd-desc">Exchange rates</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Heat Map.html">Heatatic Analysis</a></div><div class="dd-desc">Market prediction</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Technical Analysis.html">Technical Analysis</a></div><div class="dd-desc">Market prediction</div></div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <span class="nav-link">Earn <span class="chev"></span></span>
+          <div class="dropdown small">
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Staking.html">Staking</a></div><div class="dd-desc">Earn rewards</div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Crypto Lending.html">Crypto Lending</a></div><div class="dd-desc">Passive income</div></div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <span class="nav-link">Buy Crypto <span class="chev"></span></span>
+          <div class="dropdown small">
+            <div class="dd-item"><div class="dd-title"><a href="/HTML/Wallet.html">Fiat Deposit</a></div><div class="dd-desc">Via bank or card</div></div>
+            <div class="dd-item"><div class="dd-title"><a href="/HTML/P2P Trading.html">P2P Trading</a></div><div class="dd-desc">Local payments</div></div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <span class="nav-link">Documentation <span class="chev"></span></span>
+          <div class="dropdown small">
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/User Agreement.html">User Agreement</a></div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/AML Policy.html">AML Policy</a></div></div>
+            <div class="dd-item"><div class="dd-title"> <a href="/HTML/Privacy Policy.html">Privacy Policy</a></div></div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- RIGHT -->
+      <div class="header-right">
+        <div class="nav-item">
+          <span class="nav-link">Our card <span class="chev"></span></span>
+        </div>
+
+        <button class="deposit">Deposit</button>
+
+        <div class="nav-item has-dropdown assets-dropdown">
+  <span class="nav-link">
+    Assets <span class="chev"></span>
+  </span>
+
+  <div class="assets-panel">
+    <div class="assets-top">
+      <div class="assets-title">Assets Overview</div>
+
+      <div class="assets-balance">
+        <div class="usd">0 USD</div>
+        <div class="btc">≈ 0 BTC</div>
+        <div class="note">*Data may be delayed.</div>
+      </div>
+
+      <div class="assets-actions">
+        <button class="assets-btn">Deposit</button>
+        <button class="assets-btn">Withdraw</button>
+      </div>
+    </div>
+
+    <div class="assets-list">
+      <div class="assets-row">
+        <div>
+          <div class="row-name">Spot</div>
+          <div class="row-percent">0.0%</div>
+        </div>
+        <div class="row-value">$0.00</div>
+      </div>
+
+      <div class="assets-row">
+        <div>
+          <div class="row-name">Margin</div>
+          <div class="row-percent">0.0%</div>
+        </div>
+        <div class="row-value">$0.00</div>
+      </div>
+
+      <div class="assets-row">
+        <div>
+          <div class="row-name">Futures</div>
+          <div class="row-percent">0.0%</div>
+        </div>
+        <div class="row-value">$0.00</div>
+      </div>
+
+      <div class="assets-row ">
+        <div>
+          <div class="row-name">Earn</div>
+          <div class="row-percent">0.0%</div>
+        </div>
+        <div class="row-value">$0.00</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        <div class="nav-item">
+          <span class="nav-link">History <span class="chev"></span></span>
+          <div class="dropdown small">
+            <div class="dd-item"><div class="dd-title"><a href="/HTML/All transactions.html">All transactions</a></div></div>
+            <div class="dd-item"><div class="dd-title"><a href="/HTML/Deposits.html">Deposits</a></div></div>
+            <div class="dd-item"><div class="dd-title"><a href="/HTML/Withdrawals.html">Withdrawals</a></div></div>
+            <div class="dd-item"><div class="dd-title"><a href="/HTML/Transfers.html">Transfers</a></div></div>
+            <div class="dd-item"><div class="dd-title"><a href="/HTML/Earnings.html">Earnings</a></div></div>
+          </div>
+        </div>
+
+        <div class="nav-item has-dropdown avatar-dropdown">
+  <div class="avatar"></div>
+
+  <div class="dropdown-panel avatar-panel">
+    <!-- USER -->
+    <div class="avatar-user">
+      <div class="avatar_big"></div>
+      <div>
+        <div class="avatar-email">aut***@****</div>
+        <div class="avatar-uid">UID 567356802</div>
+      </div>
+    </div>
+
+    <div class="avatar-tags">
+      <span class="tag vip">VIP</span>
+      <span class="tag unverified">Unverified</span>
+    </div>
+
+    <div class="avatar-divider"></div>
+
+    <!-- MENU -->
+    <a class="avatar-item" href="/HTML/Wallet.html">Wallet <span>›</span></a>
+    <a class="avatar-item" href="/HTML/Settings.html">Settings <span>›</span></a>
+    <a class="avatar-item " href="/HTML/Security.html">Security <span>›</span></a>
+    <a class="avatar-item" href="/HTML/Identity Verification.html">Identity Verification <span>›</span></a>
+    <a class="avatar-item" href="/HTML/Referral program.html">Referral program <span>›</span></a>
+    <a class="avatar-item" href="/HTML/API Management.html">API Management <span>›</span></a>
+    <a class="avatar-item" href="/HTML/Mobile app.html">Mobile app <span>›</span></a>
+    <div class="avatar-divider"></div>
+
+    <a class="avatar-item logout" href="#">Log out</a>
+  </div>
+</div>
+
+        <div class="lang">EN</div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<div class="wrapper">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="menu-item"><a href="./Settings.html">Account Settings</a></div>
+    <div class="menu-item"><a href="./Security.html">Security</a></div>
+    <div class="menu-item"><a href="/HTML/Identity Verification.html">Identity Verification</a></div>
+    <div class="menu-item"><a href="/HTML/Referral Program.html">Referral Program</a></div>
+    <div class="menu-item active"><a href="/HTML/API Management.html">API Management</a></div>
+  </aside>
+
+  <!-- CONTENT -->
+  <main class="content">
+
+
+    <!-- API MANAGEMENT -->
+    <div class="page-header">
+      <h1>API Management</h1>
+    </div>
+
+    <div class="card">
+
+      <div class="warning-box">
+        ⚠️ To use the API, you need to connect
+        <strong>Google 2FA Authenticator</strong>
+      </div>
+
+      <p class="desc">
+        • We provide clients with the most powerful, industry-leading API functionalities.
+      </p>
+      <p class="desc">
+        • Each account can have up to 20 keys.
+      </p>
+      <p class="desc">
+        • For security reasons, please do not reveal your key(s) to non-trusted third parties.
+      </p>
+      <p class="desc" style="color:#f0a23b;">
+        • After changing your login password, please set up new API key(s), as the old one will expire within seven (7) days.
+      </p>
+      <p class="desc">
+        • Your API secret key will only appear once upon creation and will be hidden afterwards.
+      </p>
+
+      <h3 style="margin-top:32px; color:black;">Create new API Key</h3>
+      <p class="desc">Select the necessary permissions for the new key:</p>
+
+      <div class="permissions">
+        <label class="permission"><input type="checkbox" /> Read Data</label>
+        <label class="permission"><input type="checkbox" /> Write Data</label>
+        <label class="permission"><input type="checkbox" /> Trading</label>
+        <label class="permission"><input type="checkbox" /> Exchange</label>
+        <label class="permission"><input type="checkbox" /> Transfer</label>
+        <label class="permission"><input type="checkbox" /> Withdraw</label>
+      </div>
+
+      <button class="btn">Create</button>
+    </div>
+
+    <!-- CREATED API KEYS -->
+    <div class="page-header">
+      <h1>Created API Keys</h1>
+    </div>
+
+    <div class="card">
+      <table class="ref-table">
+        <thead class="ref-table-head">
+          <tr>
+            <th>Secret Key</th>
+            <th>Permissions</th>
+            <th>Time Created</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody class="ref-table-body">
+          <tr>
+            <td colspan="5">
+              <div class="empty">
+                📄 <br /> No Records
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+</div>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Trading</h4>
+      <ul>
+        <li><a href="#">Markets</a></li>
+        <li><a href="#">Swap</a></li>
+        <li><a href="#">Spot</a></li>
+        <li><a href="#">Margin</a></li>
+        <li><a href="#">Futures</a></li>
+        <li><a href="#">Tournament</a></li>
+        <li><a href="#">P2P</a></li>
+        <li><a href="#">Buy Crypto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Verify Official Channels</a></li>
+        <li><a href="#">Fees</a></li>
+        <li><a href="#">Bug Bounty</a></li>
+        <li><a href="#">Corporate Identity</a></li>
+        <li><a href="#">Institutional Services</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#">Staking</a></li>
+        <li><a href="#">Crypto Lending</a></li>
+        <li><a href="#">Referral Program</a></li>
+        <li><a href="#">Token Listing</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Legal & Disclosures</h4>
+      <ul>
+        <li><a href="#">User Agreement</a></li>
+        <li><a href="#">AML Policy</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookies Policy</a></li>
+        <li><a href="#">Risk Disclosure Statement</a></li>
+        <li><a href="#">Special Treatment</a></li>
+        <li><a href="#">Regulatory License</a></li>
+        <li><a href="#">Law Enforcement Requests</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="../JS/menu.js"></script>
+
+</body>
+</html>

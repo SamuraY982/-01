@@ -1,0 +1,193 @@
+/* ===== LAYOUT ===== */
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 260px;
+  background: #fff;
+  border-right: 1px solid #e6e8eb;
+  padding: 20px 0;
+}
+
+.sidebar-title {
+  padding: 0 24px 12px;
+  font-weight: 600;
+  display: flex;
+  gap: 8px;
+  color: black;
+}
+
+.menu-group {
+  margin-bottom: 16px;
+}
+
+.menu-item {
+  padding: 10px 24px;
+  color: #555;
+  font-size: 14px;
+}
+
+.menu-item a {
+  padding: 10px 24px;
+  color: #555;
+  font-size: 14px;
+}
+
+.menu-item.active {
+  background: #f2f4f7;
+  border-radius: 6px;
+}
+
+.export {
+  margin-top: 16px;
+  padding: 12px 24px;
+  display: flex;
+  gap: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  color: black;
+}
+
+/* ===== CONTENT ===== */
+.content {
+  flex: 1;
+  padding: 32px;
+}
+
+/* ===== HEADER ===== */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}
+
+/* ===== SEARCH ===== */
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  padding: 12px 40px 12px 14px;
+  border: 1px solid #e6e8eb;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.search-box span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+/* ===== TABLE ===== */
+.card {
+  background: #fff;
+  border: 1px solid #e6e8eb;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.tx-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tx-head {
+  background: #f2f4f7;
+}
+
+.tx-table th,
+.tx-table td {
+  padding: 14px 16px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.tx-table th {
+  color: #666;
+  font-weight: 600;
+}
+
+.tx-body td {
+  color: #777;
+}
+
+/* ===== EMPTY ===== */
+.empty {
+  text-align: center;
+  padding: 80px 0;
+  color: #999;
+}
+
+.empty-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-right: none;
+    border-bottom: 1px solid #e6e8eb;
+    padding: 12px 16px;
+  }
+
+  .sidebar-title {
+    width: 100%;
+    padding: 0;
+  }
+
+  .menu-item,
+  .menu-item a,
+  .export {
+    padding: 10px 14px;
+  }
+
+  .content {
+    padding: 24px 16px;
+  }
+
+  .card {
+    overflow-x: auto;
+  }
+
+  .tx-table {
+    min-width: 680px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .page-header h1 {
+    font-size: 26px;
+  }
+
+  .search-box input {
+    width: 100%;
+  }
+}
