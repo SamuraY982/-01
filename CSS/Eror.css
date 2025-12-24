@@ -1,0 +1,81 @@
+/* ERROR MODAL */
+.error-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 9999;
+}
+
+.error-modal.active {
+  display: block;
+}
+
+.error-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.4);
+}
+
+.error-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(.96);
+  width: 420px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  text-align: center;
+  animation: errorPop .25s ease forwards;
+}
+
+@keyframes errorPop {
+  to { transform: translate(-50%, -50%) scale(1); }
+}
+
+.error-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: none;
+  background: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #999;
+}
+
+.error-icon {
+  width: 72px;
+  height: 72px;
+  background: #d94141;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 36px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 18px;
+}
+
+.error-window h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.error-window p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.error-btn {
+  width: 100%;
+  margin-top: 22px;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: #f4a640;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
