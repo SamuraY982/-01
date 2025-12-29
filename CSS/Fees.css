@@ -1,0 +1,104 @@
+.fees {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px 100px;
+  color: #e5e7eb;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* HEADER */
+.fees-header {
+  margin-bottom: 40px;
+}
+
+.fees-header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.fees-header p {
+  margin-top: 8px;
+  color: #9ca3af;
+  font-size: 15px;
+}
+
+/* TABS */
+.fees-tabs {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 14px 0;
+  font-size: 14px;
+  color: #9ca3af;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab.active {
+  color: #f9fafb;
+  font-weight: 500;
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background: #f0b90b;
+}
+
+/* TABLE */
+.fees-table {
+  margin-top: 10px;
+}
+
+.fees-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fees-table thead th {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #9ca3af;
+  padding: 14px 0;
+  border-bottom: 1px solid #1f2937;
+  text-align: left;
+}
+
+.fees-table tbody td {
+  padding: 18px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.fees-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.fees-table td:last-child,
+.fees-table th:last-child {
+  text-align: right;
+}
+
+.fees-table td:nth-last-child(2),
+.fees-table th:nth-last-child(2) {
+  text-align: right;
+}
+
+/* FOOTNOTE */
+.fees-footnote {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #6b7280;
+}
